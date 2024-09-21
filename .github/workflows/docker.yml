@@ -31,7 +31,6 @@ jobs:
         linux/arm/v6
         linux/riscv64
         linux/ppc64le
-        linux/s390x
     secrets:
       DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
 
